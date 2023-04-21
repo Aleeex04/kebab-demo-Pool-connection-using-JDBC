@@ -13,7 +13,7 @@ Este proyecto usa el framework HikariCP para implementar un pool de conexiones J
   <version>5.0.1</version>
 </dependency>
 ~~~
-Luego, se necesita crear una clase que encapsule la lógica para obtener una conexión del pool. En este proyecto, la clase se llama HikariCPDataSource:
+Luego, se necesita crear una clase que encapsule la lógica para obtener una conexión del pool.
 ~~~
 private static void initDatabaseConnectionPool() {
         dataSource = new HikariDataSource();
